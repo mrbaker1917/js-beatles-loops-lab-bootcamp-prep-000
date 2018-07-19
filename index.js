@@ -19,9 +19,8 @@ let hardFacts = [];
 function johnLennonFacts(facts) {
   var i = 0;
   while (i < facts.length) {
-    hardFacts.push(facts[i] + "!!!");
+    facts[i] = facts[i] + "!!!");
     i++;
   }
-  Object.assign(hardFacts, facts)
   return facts;
 }
