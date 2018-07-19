@@ -23,5 +23,5 @@ function johnLennonFacts(facts) {
     i++;
   }
   Object.assign(hardFacts, facts)
-  return hardFacts;
+  return facts;
 }
