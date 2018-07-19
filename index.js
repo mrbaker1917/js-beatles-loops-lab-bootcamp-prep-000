@@ -22,6 +22,6 @@ function johnLennonFacts(facts) {
     hardFacts.push(facts[i] + "!!!");
     i++;
   }
-  console.log(hardFacts);
+  Object.assign(hardFacts, facts)
   return hardFacts;
 }
